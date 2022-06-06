@@ -4,6 +4,10 @@ from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
 from sklearn.metrics import r2_score
 
+## Diplomado Python
+#- Nombre: Deison Tuiran Londoño
+#- Email:  deison.tuiran@upb.edu.co
+#- Codigo: 014810
 datos = pd.read_excel("AirQualityUCI.xlsx")
 x = datos["RH"]
 y = datos["T"]
